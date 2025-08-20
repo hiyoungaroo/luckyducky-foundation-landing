@@ -4,7 +4,7 @@ import { Features } from "@/components/features";
 import { Hero } from "@/components/hero";
 import { SpotlightLogoCloud } from "@/components/logos-cloud";
 import { Pricing } from "@/components/pricing";
-import { Testimonials } from "@/components/testimonials";
+// import { Testimonials } from "@/components/testimonials";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
       <SpotlightLogoCloud />
       <Features />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Pricing />
       <FrequentlyAskedQuestions />
       <CTA />
