@@ -175,7 +175,10 @@ export default function CTA() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="relative z-20"
         >
-          <Button className="h-10 md:h-12 lg:h-16 w-32 md:w-40 lg:w-48 rounded-full text-xs sm:text-sm md:text-base font-medium">
+          <Button 
+            className="h-10 md:h-12 lg:h-16 w-32 md:w-40 lg:w-48 rounded-full text-xs sm:text-sm md:text-base font-medium cursor-pointer"
+            onClick={() => {}}
+          >
             Get Started Now
           </Button>
         </motion.div>

@@ -134,7 +134,7 @@ export function Footer() {
         
         <div className="mt-16 pt-8 border-t border-white/[0.1] flex flex-col md:flex-row justify-between items-center">
           <div className="text-sm text-neutral-400 mb-4 md:mb-0">
-            © 2024 LuckyDucky Foundation. All rights reserved.
+            © 2025 LuckyDucky Foundation. All rights reserved.
           </div>
           <div className="flex flex-col md:flex-row items-center gap-4 text-sm text-neutral-400">
             <a href="mailto:hello@luckyducky.world" className="hover:text-white transition-colors">

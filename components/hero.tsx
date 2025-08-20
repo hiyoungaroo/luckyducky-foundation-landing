@@ -9,7 +9,6 @@ import {
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 import Balancer from "react-wrap-balancer";
-import Link from "next/link";
 import { Button } from "./button";
 import { GlowingEffect } from "./ui/glowing-effect";
 
@@ -76,10 +75,9 @@ export function Hero() {
         className="mb-8 mt-6 sm:mb-10 sm:mt-8 flex w-full flex-col items-center justify-center gap-4 px-4 sm:px-8 sm:flex-row md:mb-20"
       >
         <Button
-          as={Link}
-          href="/login"
           variant="primary"
-          className="w-full sm:w-40 h-12 rounded-full flex items-center justify-center"
+          className="w-full sm:w-40 h-12 rounded-full flex items-center justify-center cursor-pointer"
+          onClick={() => {}}
         >
           Get Started
         </Button>

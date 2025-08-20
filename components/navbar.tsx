@@ -157,10 +157,9 @@ const DesktopNav = ({ navItems, visible }: NavbarProps) => {
               }}
             >
               <Button
-                as={Link}
-                href="/"
                 variant="primary"
-                className="hidden md:block rounded-full bg-white/20 hover:bg-white/30 text-white border-0"
+                className="hidden md:block rounded-full bg-white/20 hover:bg-white/30 text-white border-0 cursor-pointer"
+                onClick={() => {}}
               >
                 Get Started Now
               </Button>
